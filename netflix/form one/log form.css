@@ -1,0 +1,174 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  background-color: rgb(65, 65, 126);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid purple;
+  margin-top: 80px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1f2138 0%, #221c29 50%, #151119 100%);
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  align-items: flex-start;
+}
+
+.head p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+.same {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 550;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.same input {
+  border: 1px solid rgb(153, 121, 153);
+  background: #1f2138;
+  border-radius: 5px;
+  width: 97%;
+  height: 30px;
+  color: white;
+  padding-left: 8px;
+  letter-spacing: 0.8px;
+  outline: none;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #888;
+  font-size: 12px;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+}
+
+.cbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.cbox a {
+  color: rgb(65, 65, 126);
+  text-decoration: none;
+}
+
+.cbox p {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.cbox a:hover {
+  text-decoration: underline;
+  color: rgb(39, 39, 151);
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(160, 140, 245) 0%,
+    rgb(91, 64, 138) 100%
+  );
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.divider {
+  display: flex; /*display flex to align the text and lines horizontally*/
+  align-items: center; /*align items vertically center*/
+  text-align: center; /*center the text*/
+  color: #a0aec0; /*text color of the divider*/
+  margin: 20px 0; /*space above and below the divider*/
+}
+
+.divider::before,
+.divider::after {
+  content: ""; /*empty content for the pseudo-elements*/
+  flex: 1; /*make the lines take up equal space on both sides of the text*/
+  border-bottom: 1px solid #4a5568; /*color of the line*/
+}
+
+.divider span {
+  padding: 0 10px; /*space around the text*/
+  font-size: 0.875rem; /*font size of the text*/
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(153, 121, 153);
+  background: #1f2138;
+  height: 30px;
+  width: 85px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.sup {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.sup p {
+  color: white;
+}
+
+.sup a {
+  color: rgb(65, 65, 126);
+  text-decoration: none;
+}
+
+.sup a:hover {
+  text-decoration: underline;
+  color: rgb(39, 39, 151);
+}
+
+i {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+
+  <body>
+    <section class="form">
+      <form action="">
+        <h1>Create Account</h1>
+        <p class="para">Join us today</p>
+
+        <div class="same">
+          <label for="fname">Full Name</label>
+
+          <input
+            type="text"
+            name="name"
+            id="fname"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        <div class="same">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email-address"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="same">
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Create a password"
+            required
+          />
+        </div>
+
+        <div class="same">
+          <label for="cpass">Confirm Password</label>
+          <input
+            type="password"
+            id="cpass"
+            name="confirm-pass"
+            placeholder="Confirm your password"
+            required
+          />
+        </div>
+
+        <label
+          style="
+            margin: 0 0 0 15px;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: rgb(24, 24, 116);
+            font-weight: 600;
+          "
+          >Gender</label
+        >
+        <section class="radio">
+          <div class="identical">
+            <label><input type="radio" name="choice" required />Male</label>
+          </div>
+
+          <div class="identical">
+            <label><input type="radio" name="choice" required />Female</label>
+          </div>
+
+          <div class="identical">
+            <label><input type="radio" name="choice" required />Others</label>
+          </div>
+        </section>
+
+        <div class="check">
+          <p>
+            <input type="checkbox" required />I agree to the
+            <a href="policy.html">terms & conditions</a> and
+            <a href="terms.html"> privacy & policy</a>
+          </p>
+        </div>
+
+        <button>Sign up</button>
+
+        <p style="text-align: center; font-family: sans-serif">
+          Already have an account?<a href="log.html">Login</a>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>

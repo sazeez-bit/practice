@@ -1,0 +1,39 @@
+details {
+  background-color: #2c2c2c;
+  margin: 10px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+summary {
+  padding: 20px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+summary:hover {
+  background-color: rgb(36, 34, 34);
+}
+
+summary::after {
+  content: "+";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+details[open] summary::after {
+  content: "-";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.card {
+  width: calc((100% - 45px) / 4);
+}

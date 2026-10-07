@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+}
+
+.general {
+  background: linear-gradient(90deg, #052355 0%, #1a66d6 100%);
+  height: 800px;
+  max-height: 1200px;
+  padding: 15px 80px 0 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+
+.logo p {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.logo p::first-letter {
+  font-size: 40px;
+}
+
+.linkk {
+  border: none;
+  padding: 20px 70px;
+  border-radius: 50px;
+  background-color: white;
+  height: 15px;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav > a {
+  color: navy;
+  font-family: sans-serif;
+  font-weight: 540;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn {
+  height: 45px;
+  padding: 12px 30px;
+  align-self: center;
+  color: navy;
+  font-weight: 540;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main {
+  font-family: sans-serif;
+  margin: 150px 60px;
+  width: 500px;
+}
+
+.main h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.main p {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btnn {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  height: 50px;
+}
+
+.btnn button {
+  padding: 20px;
+  align-self: center;
+}
+
+.btn1 {
+  background-color: aquamarine;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: navy;
+}
+
+.btn2 {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.btnn button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  background-color: white;
+  margin: -240px 100px 240px;
+  padding: 60px 100px;
+  border-radius: 40px;
+}
+
+.rate div {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice {
+  background-color: #dbdbdb;
+  padding-top: 200px;
+}
